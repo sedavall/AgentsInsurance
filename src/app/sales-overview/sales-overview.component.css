@@ -1,0 +1,99 @@
+#chart-container {
+  position: relative;
+  width: 170px; /* Set the desired width */
+  height: 200px; /* Set the desired height */
+ padding-left: 40PX;
+ padding-top: 2PX;
+ /* filter: drop-shadow(0 0 10px black); */
+ border-radius: 20px;
+ /* box-shadow: 10px -10px #CCC; */
+}
+.center-text {
+  position: absolute;
+  top: 79%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%);
+  font-size: 20px; /* Adjust font size */
+  color: black;
+  /* box-shadow: rgba(5, 14, 7, 9.24) 3px 2px 18px; */
+  /* border-radius: 10px; */
+}
+.legend {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto; /* Center the legend */
+  margin-top: -89px; /* Add some top margin */
+  margin-left: 234PX;
+  width: 100px; /* Adjust width of the legend */
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  width:107px;
+  /* margin-left: 120px; */
+}
+
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+  /* box-shadow: rgba(5, 14, 7, 9.24) 3px 2px 18px; */
+}
+.legend-label {
+  font-size: 12px; /* Adjust font size */
+  padding-left: 15px;
+  /* box-shadow: rgba(5, 14, 7, 9.24) 3px 2px 18px; */
+}
+.label {
+  position: absolute;
+  width: 60px;
+  height: 20px;
+  background-color: transparent;
+  text-align: center;
+  padding: 5px;
+  font-size: 16px; /* Adjust font size */
+  font-weight: bold;
+/* box-shadow: red; */
+}
+.label-0 {
+  top: 98px;
+  left: 207px;
+  color: rgb(154, 154, 237);
+  /* box-shadow: greenyellow; */
+  /* filter: drop-shadow(0 0 10px black); */
+}
+.label-1 {
+  top: 98px;
+  left: 207px;
+  color: blue;
+}
+.label-2 {
+  top: 178px;
+  left: -11px;
+  transform: rotate(-1deg);
+  color: orange;
+}
+.label-3 {
+  top: 245px;
+  left: 125px;
+  color: green;
+}
+.card {
+  width: 413px;
+  height: 272px; /* Adjust height as needed */
+  /* box-shadow: rgba(5, 14, 7, 9.24) 3px 2px 18px; */
+  box-shadow: #aaaaaa 3px 2px 18px;
+  border-radius: 5px;
+ margin-left: 120px;
+  /* box-shadow: 10px 10px 5px #aaaaaa; */
+}
+.myChart{
+  /* box-shadow: rgba(5, 14, 7, 9.24) 3px 2px 18px; */
+  filter: drop-shadow(0 0 10px black);
+}

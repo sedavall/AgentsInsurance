@@ -1,0 +1,27 @@
+/* Custom CSS */
+.carousel-indicators {
+    bottom: 10px; /* Adjust the position as needed */
+  }
+  
+  .carousel-indicators li {
+    background-color: #888; /* Default color for inactive dots */
+    border: none; /* Remove the border */
+    width: 10px; /* Set the width of the dots */
+    height: 10px; /* Set the height of the dots */
+    margin-right: 5px; /* Adjust spacing between dots */
+    margin-left: 5px; /* Adjust spacing between dots */
+    cursor: pointer;
+    border-radius: 50%; /* Make them circular */
+  }
+  
+  .carousel-indicators .active {
+    background-color: #000; /* Color for the active dot */
+    /* border-radius: 10px; */
+  }
+  .carousel-indicators button {
+    width: 10px; /* Set the width of the dots */
+    height: 10px; /* Set the height of the dots */
+    border-radius: 50%; /* Make them circular */
+    /* position:fixed; */
+  }
+  

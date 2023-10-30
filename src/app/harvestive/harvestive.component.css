@@ -1,0 +1,239 @@
+  .checked {
+    color: green;
+  }
+  .card1{
+    text-align: center;
+    border-left: 20px;
+    background-color:white;
+    color: black;
+    border-color: black;
+  }
+  ul.nav-underline {
+ 
+    margin-top: 70px;
+ 
+    /* top: 70px;  */
+ 
+    margin-left: 10px;
+ 
+    /* margin-bottom: 80px; */
+ 
+    margin-bottom: 20px;
+ 
+    right: -10px;
+ 
+   
+ 
+  }
+ 
+ 
+ 
+ 
+  ul.nav.nav-underline h5 {
+ 
+    color: grey;
+ 
+    margin-left: 10px;
+    margin-top: 1px;
+ 
+  }
+ 
+ 
+ 
+ 
+  .active-link-all {
+ 
+    text-decoration: underline;
+ 
+  }
+ 
+ 
+ 
+ 
+  .active-link-enter {
+ 
+    text-decoration: none; /* Remove underline for the "Enter Your Question" link */
+ 
+  }
+ 
+ 
+ 
+  a{
+    text-decoration: none;
+    color:#333;
+    font-weight: 500;
+  }
+  body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #dfe4ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+    padding-bottom:3px ;
+  }
+ 
+  li:after{
+    content: '';
+    margin: auto;
+    display: block;
+    height: 2px;
+    width: 0%;
+    background-color: transparent;
+    /* transition: width 0.5s ease,background-color 0.5s ease; */
+    transition: all 0.5s ease;
+  }
+  li:hover:after{
+    width: 100%;
+    background-color:blue;
+  }
+  .first{
+   
+    background-color: pink;
+    width: 700px;
+  }
+  .second{
+    background-color: blue;
+    width: 100px;
+    display: flex;
+   
+ 
+  }
+  .third{
+    background-color: orange;
+   
+  }
+  .imp{
+    display: flex;
+ 
+   
+  }
+  .parent-container {
+    display: flex;
+    justify-content: flex-end; /* Align containers to the end of the parent */
+    margin-bottom: 800px;
+  }
+ 
+  .first-container {
+    flex: 70%; /* 70% width */
+    background-color: #be4747;
+  }
+ 
+  .second-container,
+  .third-container {
+    flex: 15%; /* 15% width each */
+    background-color: #c2c2c2;
+  }
+ 
+  /* Add styling as needed */
+  #chart-container {
+    position: relative;
+    width: 170px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+   padding-left: 40PX;
+   padding-top: 2PX;
+   /* filter: drop-shadow(0 0 10px black); */
+   border-radius: 20px;
+   /* box-shadow: 10px -10px #CCC; */
+  }
+  .center-text {
+    position: absolute;
+    top: 52%; /* Center vertically */
+    left: 25%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+    font-size: 10px; /* Adjust font size */
+    color: black;
+   
+    /* box-shadow: rgba(5, 14, 7, 9.24) 3px 2px 18px; */
+    /* border-radius: 10px; */
+  }
+  .legend {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; /* Center the legend */
+    margin-top: -89px; /* Add some top margin */
+    margin-left: 234PX;
+    width: 100px; /* Adjust width of the legend */
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    width:107px;
+    /* margin-left: 120px; */
+  }
+   
+   
+  .legend-color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+    /* box-shadow: rgba(5, 14, 7, 9.24) 3px 2px 18px; */
+  }
+  .legend-label {
+    font-size: 12px; /* Adjust font size */
+    padding-left: 15px;
+    /* box-shadow: rgba(5, 14, 7, 9.24) 3px 2px 18px; */
+  }
+  .label {
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    background-color: transparent;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px; /* Adjust font size */
+    font-weight: bold;
+  /* box-shadow: red; */
+  }
+  .label-0 {
+    top: 98px;
+    left: 207px;
+    color: rgb(154, 154, 237);
+    /* box-shadow: greenyellow; */
+    /* filter: drop-shadow(0 0 10px black); */
+  }
+ 
+  .myChart{
+    /* box-shadow: rgba(5, 14, 7, 9.24) 3px 2px 18px; */
+    filter: drop-shadow(0 0 10px black);
+  }
+  .myChart1{
+    /* box-shadow: rgba(5, 14, 7, 9.24) 3px 2px 18px; */
+    filter: drop-shadow(0 0 10px black);
+  }
+  .min{
+    height: 118px;
+    display: block;
+  }
+  .min1{
+    height: 118px;
+    display: block;
+  }
+
+  card{
+    width: 50px;
+  }
+  
+  /* .text{
+    margin-left: 120px;
+    
+    margin-bottom: 100px;
+  } */
+  .chart-text {
+    position: absolute;
+    top: 50%; /* Adjust vertically */
+    left: 70%; /* Adjust horizontally */
+    transform: translate(-50%, -50%); /* Center the text */
+    padding: 5px; /* Add padding for better readability */
+
+}
