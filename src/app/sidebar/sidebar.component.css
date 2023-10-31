@@ -9,9 +9,10 @@
 }
 ul {
     background: #dfe9f5;
+   
 }
 mat-sidenav-container {
-    position: absolute;
+    position: fixed;
     top: 80px;
     bottom: 0;
     height: 100%;

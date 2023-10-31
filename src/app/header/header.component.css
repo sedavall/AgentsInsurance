@@ -7,6 +7,10 @@
     background-color: rgb(18, 18, 191);
     color: #fff;
     height: 50px;
+    position: fixed;
+    width:100%;
+   
+    
 }
 .omni{
    margin-right: 950px;

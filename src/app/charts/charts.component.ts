@@ -1,19 +1,19 @@
 import { Component } from '@angular/core';
 import Chart from 'chart.js/auto';
 import 'chartjs-plugin-datalabels';
- 
+
 @Component({
-  selector: 'app-harvestive',
-  templateUrl: './harvestive.component.html',
-  styleUrls: ['./harvestive.component.css']
+  selector: 'app-charts',
+  templateUrl: './charts.component.html',
+  styleUrls: ['./charts.component.css']
 })
-export class HarvestiveComponent {
+export class ChartsComponent {
   chart: any;
   data={
     labels:['Total','Sold'],
     datasets:[{
       data:[ 2,1],
-      backgroundColor:['rgb(235,125,7)','rgb(232,178,121)'],
+      backgroundColor:['rgb(32,82,41)','rgb(124,166,132)'],
     }]
   };
  
@@ -23,7 +23,7 @@ export class HarvestiveComponent {
     this.createChart();
   }
   createChart(){
-    const ctx=document.getElementById('myChart') as HTMLCanvasElement;
+    const ctx=document.getElementById('myChart1') as HTMLCanvasElement;
       this.chart=new Chart(ctx,{
         type:'doughnut',
         data: this.data,
@@ -48,6 +48,4 @@ export class HarvestiveComponent {
             }
       });
   }
-  
-  
 }

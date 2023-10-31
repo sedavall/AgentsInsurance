@@ -12,6 +12,10 @@ import { SalesOverviewComponent } from './sales-overview/sales-overview.componen
 import { ChartModule } from 'angular-highcharts';
 import { HarvestiveComponent } from './harvestive/harvestive.component';
 import { AboutUsiComponent } from './about-usi/about-usi.component';
+import { ChartsComponent } from './charts/charts.component';
+import { ExpertsComponent } from './experts/experts.component';
+import {MatTabsModule} from '@angular/material/tabs';
+// import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,9 @@ import { AboutUsiComponent } from './about-usi/about-usi.component';
     SidebarComponent,
     SalesOverviewComponent,
     HarvestiveComponent,
-    AboutUsiComponent
+    AboutUsiComponent,
+    ChartsComponent,
+    ExpertsComponent
   ],
   imports: [
     BrowserModule,
@@ -29,6 +35,9 @@ import { AboutUsiComponent } from './about-usi/about-usi.component';
     MatSidenavModule,
     BrowserAnimationsModule,
     ChartModule,
+    MatTabsModule,
+    
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -207,10 +207,9 @@
     /* box-shadow: rgba(5, 14, 7, 9.24) 3px 2px 18px; */
     filter: drop-shadow(0 0 10px black);
   }
-  .myChart1{
-    /* box-shadow: rgba(5, 14, 7, 9.24) 3px 2px 18px; */
+  /* .myCharts{
     filter: drop-shadow(0 0 10px black);
-  }
+  } */
   .min{
     height: 118px;
     display: block;
@@ -236,4 +235,7 @@
     transform: translate(-50%, -50%); /* Center the text */
     padding: 5px; /* Add padding for better readability */
 
+}
+.mat-tab-group {
+  margin-bottom: 48px;
 }

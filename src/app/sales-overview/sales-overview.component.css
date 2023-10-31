@@ -6,7 +6,7 @@
  padding-top: 2PX;
  /* filter: drop-shadow(0 0 10px black); */
  border-radius: 20px;
- /* box-shadow: 10px -10px #CCC; */
+
 }
 .center-text {
   position: absolute;
@@ -70,7 +70,7 @@
 }
 .label-1 {
   top: 98px;
-  left: 207px;
+  left: 179px;
   color: blue;
 }
 .label-2 {
@@ -90,7 +90,8 @@
   /* box-shadow: rgba(5, 14, 7, 9.24) 3px 2px 18px; */
   box-shadow: #aaaaaa 3px 2px 18px;
   border-radius: 5px;
- margin-left: 120px;
+ margin-left: 5px;
+top: 60px;
   /* box-shadow: 10px 10px 5px #aaaaaa; */
 }
 .myChart{
