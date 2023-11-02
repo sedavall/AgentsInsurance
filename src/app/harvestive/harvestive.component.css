@@ -1,3 +1,10 @@
+.nav2{
+  border: 0.5px solid rgb(125, 123, 123);
+  background-color:#f8f8f8;
+  position: absolute;
+
+  
+}
   .checked {
     color: green;
   }
