@@ -15,7 +15,13 @@ import { AboutUsiComponent } from './about-usi/about-usi.component';
 import { ChartsComponent } from './charts/charts.component';
 import { ExpertsComponent } from './experts/experts.component';
 import {MatTabsModule} from '@angular/material/tabs';
+
+import { MyAppointmentsComponent } from './my-appointments/my-appointments.component';
 // import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { ScheduleModule, RecurrenceEditorModule, DayService, WeekService, WorkWeekService, MonthService, MonthAgendaService, DragAndDropService, ResizeService, WorkHoursModel} from '@syncfusion/ej2-angular-schedule';
+
+
 
 @NgModule({
   declarations: [
@@ -26,7 +32,9 @@ import {MatTabsModule} from '@angular/material/tabs';
     HarvestiveComponent,
     AboutUsiComponent,
     ChartsComponent,
-    ExpertsComponent
+    ExpertsComponent,
+    MyAppointmentsComponent,
+   
   ],
   imports: [
     BrowserModule,
@@ -36,10 +44,11 @@ import {MatTabsModule} from '@angular/material/tabs';
     BrowserAnimationsModule,
     ChartModule,
     MatTabsModule,
+    ScheduleModule, RecurrenceEditorModule,
     
     
   ],
-  providers: [],
+  providers: [DayService, WeekService, WorkWeekService, MonthService, MonthAgendaService, DragAndDropService, ResizeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
