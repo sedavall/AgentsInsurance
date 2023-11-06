@@ -15,6 +15,7 @@ import { AboutUsiComponent } from './about-usi/about-usi.component';
 import { ChartsComponent } from './charts/charts.component';
 import { ExpertsComponent } from './experts/experts.component';
 import {MatTabsModule} from '@angular/material/tabs';
+import { MyActivitiesComponent } from './myactivities/myactivities.component';
 // import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
@@ -26,7 +27,8 @@ import {MatTabsModule} from '@angular/material/tabs';
     HarvestiveComponent,
     AboutUsiComponent,
     ChartsComponent,
-    ExpertsComponent
+    ExpertsComponent,
+    MyActivitiesComponent
   ],
   imports: [
     BrowserModule,
