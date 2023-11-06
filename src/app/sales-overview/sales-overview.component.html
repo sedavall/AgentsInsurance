@@ -1,22 +1,36 @@
-<div class="card">
-    <div class="doughnut-chart" id="chart-container">
-        <h3 style="text-align:left"> Sales Overview</h3>
-        <label for="DateOfBirth" style="margin-right: 250px;"> </label>
-        <input type="month" style="width:100px;margin-left: 250px;" />
-    <div  style="display: block">
-        <canvas id="myChart" ></canvas>
-        <div class="label label-1">1.2 mn</div>
-        <div class="label label-2">2 mn</div>
-        <div class="label label-3">1.8 mn</div>
-        <div id="centerText" class="center-text" style="margin-left: 15px;"><b>5 mn</b> <br>
-            USD</div>
-        <div class="legend">
-            <div *ngFor="let label of data.labels; let i=index" class="legend-item">
+<div class="container">
+    <div class="row">
+    <div class="column"  id="sales-column">
+      <div class="card">
+        <div class="doughnut-chart" id="chart-container">
+          <h3 style="text-align: left">Sales Overview</h3>
+          <label for="DateOfBirth" style="margin-right: 250px;"></label>
+          <input type="month" style="width: 100px; margin-left: 250px;" />
+          <div style="display: block">
+            <canvas id="myChart"></canvas>
+            <div class="label label-1">1.2 mn</div>
+            <div class="label label-2">2 mn</div>
+            <div class="label label-3">1.8 mn</div>
+            <div id="centerText" class="center-text" style="margin-left: 15px;"><b>5 mn</b> <br>USD</div>
+            <div class="legend">
+              <div *ngFor="let label of data.labels; let i = index" class="legend-item">
                 <div class="legend-color" [style.background-color]="data.datasets[0].backgroundColor[i]"></div>
-                <div class="legend-label">{{label}}:
-                </div>
+                <div class="legend-label">{{label}}:</div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
+<<<<<<< HEAD
 </div>
 <app-myactivities></app-myactivities>
+=======
+  
+    <div class="column" id="appointments-column">
+        <div class="card">
+      <app-my-appointments></app-my-appointments>
+    </div>
+</div>
+</div>
+>>>>>>> 1cb103d836a2906f0c678b42580e950ba66fe3b5
