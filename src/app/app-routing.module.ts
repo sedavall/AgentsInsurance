@@ -6,6 +6,8 @@ import { AboutUsiComponent } from './about-usi/about-usi.component';
 import { ExpertsComponent } from './experts/experts.component';
 import { MyActivitiesComponent } from './myactivities/myactivities.component';
 import { MyAppointmentsComponent } from './my-appointments/my-appointments.component';
+import { NewsComponent } from './news/news.component';
+import { MainPageComponent } from './main-page/main-page.component';
 
 const routes: Routes = [
   {path:'sales',component:SalesOverviewComponent},
@@ -14,6 +16,8 @@ const routes: Routes = [
   {path:'Expert',component:ExpertsComponent},
   {path:'aboutusi',component:AboutUsiComponent},
   {path:'MyActivities',component:MyActivitiesComponent},
+  {path:'news',component:NewsComponent},
+  {path:'mainPage',component:MainPageComponent},
 
   {
     path:'myAppointments',component:MyAppointmentsComponent

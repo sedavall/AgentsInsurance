@@ -21,6 +21,8 @@ import { MyAppointmentsComponent } from './my-appointments/my-appointments.compo
 // import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { ScheduleModule, RecurrenceEditorModule, DayService, WeekService, WorkWeekService, MonthService, MonthAgendaService, DragAndDropService, ResizeService, WorkHoursModel} from '@syncfusion/ej2-angular-schedule';
+import { NewsComponent } from './news/news.component';
+import { MainPageComponent } from './main-page/main-page.component';
 
 
 
@@ -35,7 +37,9 @@ import { ScheduleModule, RecurrenceEditorModule, DayService, WeekService, WorkWe
     ChartsComponent,
     ExpertsComponent,
     MyActivitiesComponent,
-    MyAppointmentsComponent
+    MyAppointmentsComponent,
+    NewsComponent,
+    MainPageComponent
    
   ],
   imports: [
