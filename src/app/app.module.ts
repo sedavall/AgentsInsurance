@@ -15,6 +15,10 @@ import { AboutUsiComponent } from './about-usi/about-usi.component';
 import { ChartsComponent } from './charts/charts.component';
 import { ExpertsComponent } from './experts/experts.component';
 import {MatTabsModule} from '@angular/material/tabs';
+import { SolutionsummaryComponent } from './solutionsummary/solutionsummary.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 // import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
@@ -26,7 +30,8 @@ import {MatTabsModule} from '@angular/material/tabs';
     HarvestiveComponent,
     AboutUsiComponent,
     ChartsComponent,
-    ExpertsComponent
+    ExpertsComponent,
+    SolutionsummaryComponent
   ],
   imports: [
     BrowserModule,
@@ -36,6 +41,9 @@ import {MatTabsModule} from '@angular/material/tabs';
     BrowserAnimationsModule,
     ChartModule,
     MatTabsModule,
+    HttpClientModule,
+   ReactiveFormsModule,
+   MatSlideToggleModule
     
     
   ],

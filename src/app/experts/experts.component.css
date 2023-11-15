@@ -1,16 +1,18 @@
 .container{
-   
+   /* height: 300px; */
     width:1300px;
+    overflow-y: auto;
   
     background-color: rgb(248, 242, 242);
     /* position: fixed; */
+    /* position: static; */
 }
-div.scroll-container {
+/* div.scroll-container {
    
   overflow: auto;
   white-space: nowrap;
   padding: 21px;
-}
+} */
 div.scroll-container img {
   padding: 10px;
 }

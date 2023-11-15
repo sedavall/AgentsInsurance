@@ -7,7 +7,7 @@
     background-color: rgb(18, 18, 191);
     color: #fff;
     height: 50px;
-    position: fixed;
+    /* position: fixed; */
     width:100%;
     z-index: 1;
    
