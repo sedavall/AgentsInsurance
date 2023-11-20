@@ -1,0 +1,43 @@
+.container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 55% 45%;
+  /* gap: 10px; Add gap between cells if needed */
+  height: 100vh;
+  /* background-color: #f0f0f0; */
+}
+
+.sales {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  background-color:white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.appointments {
+  margin-top: 45px;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.free {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.news {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}

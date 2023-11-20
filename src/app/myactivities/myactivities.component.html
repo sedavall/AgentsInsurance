@@ -1,0 +1,270 @@
+<!-- 
+
+<div class="card small-card">
+    <div class="activities">
+      <p>My Activities</p>
+    </div>
+  
+    <div class="company-row">
+      <div class="company-details">
+        <div class="company-column">
+          <div class="company-label">Company Name</div>
+        </div>
+  
+        <div class="company-column">
+          <div class="company-label">Details</div>
+        </div>
+  
+        <div class="company-column">
+          <div class="company-label">Amount</div>
+        </div>
+  
+        <div class="company-column">
+          <div class="company-label">Action Items</div>
+        </div>
+      </div>
+    </div>
+  
+  
+    <div class="company-list-container">
+      <div class="company-list">
+        <div *ngFor="let activity of activities" class="company-row">
+          <hr class="horizontal-line">
+          <div class="company-details">
+            <div class="company-column">
+              <div class="company-data">
+                <p class="company-name">{{ activity.companyName }}</p>
+                <p class="company-details-small">{{ activity.smalldetail}}</p>
+              </div>
+            </div>
+  
+            <div class="company-column">
+              <div class="company-data">{{ activity.details }}</div>
+            </div>
+  
+            <div class="company-column">
+              <div class="company-data blue-amount">{{ activity.amount }}</div>
+            </div>
+  
+            <div class="company-column">
+              <div class="company-data">
+                <span *ngFor="let action of activity.actions; let last = last">
+                  <img src="assets/images/{{action}}.png" alt="{{action}}" class="action-icon" />
+                  <span *ngIf="!last">&nbsp;</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>    -->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!--  
+  <div class="card small-card">
+    <div class="activities">
+      <p>My Activities</p>
+    </div>
+  
+    <div class="company-row">
+      <div class="company-details">
+        <div class="company-column">
+          <div class="company-label">
+            Company Name
+          </div>
+          <img
+            src="assets/images/uarrow.png"
+            alt="Up Arrow"
+            class="arrow-icon"
+            (click)="sort('companyName', 'asc')"
+          />
+          <img
+            src="assets/images/darrow.png"
+            alt="Down Arrow"
+            class="arrow-icon"
+            (click)="sort('companyName', 'desc')"
+          />
+        </div>
+        <div class="company-column">
+          <div class="company-label">
+            Details
+          </div>
+          <img
+            src="assets/images/uarrow.png"
+            alt="Up Arrow"
+            class="arrow-icon"
+            (click)="sort('details', 'asc')"
+          />
+          <img
+            src="assets/images/darrow.png"
+            alt="Down Arrow"
+            class="arrow-icon"
+            (click)="sort('details', 'desc')"
+          />
+        </div>
+        <div class="company-column">
+          <div class="company-label">
+            Amount
+          </div>
+          <img
+            src="assets/images/uarrow.png"
+            alt="Up Arrow"
+            class="arrow-icon"
+            (click)="sort('amount', 'asc')"
+          />
+          <img
+            src="assets/images/darrow.png"
+            alt="Down Arrow"
+            class="arrow-icon"
+            (click)="sort('amount', 'desc')"
+          />
+        </div>
+        <div class="company-column">
+          <div class="company-label">
+            Action Items
+          </div>
+          <img
+            src="assets/images/uarrow.png"
+            alt="Up Arrow"
+            class="arrow-icon"
+            (click)="sort('actions', 'asc')"
+          />
+          <img
+            src="assets/images/darrow.png"
+            alt="Down Arrow"
+            class="arrow-icon"
+            (click)="sort('actions', 'desc')"
+          />
+        </div>
+      </div>
+    </div>
+  
+    <div class="company-list-container">
+      <div class="company-list">
+        <div *ngFor="let activity of activities" class="company-row">
+          <hr class="horizontal-line">
+          <div class="company-details">
+            <div class="company-column">
+              <div class="company-data">
+                <p class="company-name">{{ activity.companyName }}</p>
+              </div>
+            </div>
+            <div class="company-column">
+              <div class="company-data">{{ activity.details }}</div>
+            </div>
+            <div class="company-column">
+              <div class="company-data">{{ activity.amount }}</div>
+            </div>
+            <div class="company-column">
+              <div class="company-data">
+                <span *ngFor="let action of activity.actions">
+                  <img src="assets/images/{{ action }}.png" alt="{{ action }}" class="action-icon" />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+  <div class="card small-card">
+    <div class="activities">
+      <p>My Activities</p>
+    </div>
+  
+    <div class="company-row">
+      <div class="company-details">
+        <div class="company-column">
+          <div class="company-label">Company Name</div>
+        </div>
+  
+        <div class="company-column">
+          <div class="company-label">Details</div>
+        </div>
+  
+        <div class="company-column">
+          <div class="company-label">Amount</div>
+        </div>
+  
+        <div class="company-column">
+          <div class="company-label">Action Items</div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="company-list-container">
+      <div class="company-list">
+        <div *ngFor="let activity of activities" class="company-row">
+          <hr class="horizontal-line">
+          <div class="company-details">
+            <div class="company-column">
+              <div class="company-data">
+                <p class="company-name">{{ activity.companyName }}</p>
+                <p class="company-details-small">{{ activity.smalldetail }}</p>
+              </div>
+            </div>
+  
+            <div class="company-column">
+              <div class="company-data">{{ activity.details }}</div>
+            </div>
+  
+            <div class="company-column">
+              <div class="company-data blue-amount">{{ activity.amount }}</div>
+            </div>
+  
+            <div class="company-column">
+              <div class="company-data">
+                <span *ngFor="let action of activity.actions; let last = last">
+                  <a *ngIf="action === 'Action 2'" [routerLink]="['/aboutusi']">
+                    <img src="assets/images/{{ action }}.png" alt="{{ action }}" class="action-icon" />
+                  </a>
+                  <ng-container *ngIf="action !== 'Action 2'">
+                    <img src="assets/images/{{ action }}.png" alt="{{ action }}" class="action-icon" />
+                  </ng-container>
+                  <span *ngIf="!last">&nbsp;</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  

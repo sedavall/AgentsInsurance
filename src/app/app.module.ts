@@ -15,11 +15,18 @@ import { AboutUsiComponent } from './about-usi/about-usi.component';
 import { ChartsComponent } from './charts/charts.component';
 import { ExpertsComponent } from './experts/experts.component';
 import {MatTabsModule} from '@angular/material/tabs';
-import { SolutionsummaryComponent } from './solutionsummary/solutionsummary.component';
-import { HttpClientModule } from '@angular/common/http';
-import { ReactiveFormsModule } from '@angular/forms';
-import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+// import { MyActivitiesComponent } from './myactivities/myactivities.component';
+
+// import { MyAppointmentsComponent } from './my-appointments/my-appointments.component';
 // import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { ScheduleModule, RecurrenceEditorModule, DayService, WeekService, WorkWeekService, MonthService, MonthAgendaService, DragAndDropService, ResizeService, WorkHoursModel} from '@syncfusion/ej2-angular-schedule';
+import { NewsComponent } from './news/news.component';
+import { MainPageComponent } from './main-page/main-page.component';
+import { MyActivitiesComponent } from './myactivities/myactivities.component';
+import { MyAppointmentsComponent } from './my-appointments/my-appointments.component';
+
+
 
 @NgModule({
   declarations: [
@@ -31,7 +38,11 @@ import {MatSlideToggleModule} from '@angular/material/slide-toggle';
     AboutUsiComponent,
     ChartsComponent,
     ExpertsComponent,
-    SolutionsummaryComponent
+    MyActivitiesComponent,
+    MyAppointmentsComponent,
+    NewsComponent,
+    MainPageComponent
+   
   ],
   imports: [
     BrowserModule,
@@ -41,13 +52,11 @@ import {MatSlideToggleModule} from '@angular/material/slide-toggle';
     BrowserAnimationsModule,
     ChartModule,
     MatTabsModule,
-    HttpClientModule,
-   ReactiveFormsModule,
-   MatSlideToggleModule
+    ScheduleModule, RecurrenceEditorModule,
     
     
   ],
-  providers: [],
+  providers: [DayService, WeekService, WorkWeekService, MonthService, MonthAgendaService, DragAndDropService, ResizeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
