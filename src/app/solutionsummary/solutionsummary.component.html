@@ -1,0 +1,166 @@
+<!-- <div class="card" >
+  <h2 style="color: #0f3c64;margin-left: 15px;"><strong>Product Liability </strong>
+    <mat-slide-toggle color="primary" class="green-toggle"></mat-slide-toggle>
+    <button style="border-radius: 10px;font-size:15px;margin-left: 650px;">Edit <i
+        class="fa fa-pencil"></i></button>&nbsp;
+    <button style="border-radius: 10px;font-size:15px;">ExecutionDemo <i class="fa fa-video-camera"></i></button>
+  </h2>
+  <table class="table" style="background-color:   rgb(125, 123, 123);">
+    <thead>
+      <tr>
+        <th scope="col">Line of Coverage & issue</th>
+        <th scope="col">solution</th>
+        <th scope="col"></th>
+        <th scope="col"> Total:${{total}}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of  item">
+        <td>
+          <span [style.color]="item ? '#2680eb' : 'black'">{{item.LineHeading}} :</span>{{item.LineofCoverageIssue}}
+        </td>
+        <td>{{item.Solution}}</td>
+        <td><button style="border-radius: 10px; font-size: 10px;color: #2680eb"> <i
+              class="fa fa-book">CaseStudy
+            </i></button></td>
+        <td>{{item.Total}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<br>
+<div class="card" style="background-color:  rgb(228, 225, 225);;width: 1100px;margin-left: 15px;border-radius: 10px;">
+  <h2 style="color: #0f3c64;margin-left: 15px;"><strong>Workers Compensation </strong>
+    <mat-slide-toggle color="primary" class="green-toggle"></mat-slide-toggle>
+    <button style="border-radius: 10px;font-size:15px;margin-left: 580px;">Edit <i
+        class="fa fa-pencil"></i></button>&nbsp;
+    <button style="border-radius: 10px;font-size:15px;">ExecutionDemo <i class="fa fa-video-camera"></i></button>
+  </h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Line of Coverage & issue</th>
+        <th scope="col">solution</th>
+        <th scope="col"></th>
+        <th scope="col">Total${{total}}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of  item1">
+        <td>
+          <span [style.color]="item ? '#2680eb' : 'black'">{{item.LineHeading}} :</span>{{item.LineofCoverageIssue}}
+        </td>
+        <td>{{item.Solution}}</td>
+        <td><button style="border-radius: 10px; font-size: 10px;color: rgb(26, 26, 189);"> <i
+              class="fa fa-book">CaseStudy
+            </i></button></td>
+        <td>{{item.Total}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<br>
+<div class="card" style="background-color:  rgb(228, 225, 225);;width: 1100px;margin-left: 18px;border-radius: 10px;">
+  <h2 style="color: #0f3c64;margin-left: 15px;"><strong>Property </strong>
+    <mat-slide-toggle color="primary" class="green-toggle"></mat-slide-toggle>
+     <u style="margin-left: 800px;">View Details</u> 
+  </h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Line of Coverage & issue</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of  SummaryData2">
+        <td>
+          <span [style.color]="SummaryData2 ? '#2680eb' : 'black'">{{item.LineHeading}} :</span>{{item.LineofCoverageIssue}}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<br>
+<div class="card" style="background-color:  rgb(228, 225, 225);;width: 1100px;margin-left: 15px;border-radius: 10px;">
+  <h2 style="color: #0f3c64;margin-left: 15px;"><strong>Auto Liability </strong>
+    <mat-slide-toggle color="primary" class="green-toggle"></mat-slide-toggle>
+    <u style="margin-left: 757px;">View Details</u> 
+  </h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Line of Coverage & issue</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of  SummaryData3">
+        <td>
+          <span [style.color]="SummaryData3 ? '#2680eb' : 'black'">{{item.LineHeading}} :</span>{{item.LineofCoverageIssue}}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<br>
+<div class="card" style="background-color: rgb(228, 225, 225);;width: 1100px;margin-left: 15px;border-radius: 10px;">
+  <h2 style="color:#0f3c64;margin-left: 15px;"><strong>international & Speciality </strong>
+    <mat-slide-toggle color="primary" class="green-toggle"></mat-slide-toggle>
+    <u style="margin-left: 640px;">View Details</u> 
+  </h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Line of Coverage & issue</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of  SummaryData4">
+        <td>
+          <span [style.color]="SummaryData4 ? '#2680eb' : 'black'">{{item.LineHeading}} :</span>{{item.LineofCoverageIssue}}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<br>
+<div class="card" style="background-color:  rgb(228, 225, 225);;width: 1100px;margin-left: 15px;border-radius: 10px;">
+  <h2 style="color: #0f3c64;margin-left: 15px;"><strong>Umbrella/Excess </strong>
+    <mat-slide-toggle color="primary" class="green-toggle"></mat-slide-toggle>
+    <u style="margin-left: 720px;">View Details</u> 
+  </h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Line of Coverage & issue</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of  SummaryData5">
+        <td>
+          <span [style.color]="SummaryData5 ? '#2680eb' : 'black'">{{item.LineHeading}} :</span>{{item.LineofCoverageIssue}}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<br>
+<div class="card" style="background-color:  rgb(228, 225, 225);;width: 1100px;margin-left: 15px;border-radius: 10px;">
+  <h2 style="color: #0f3c64;margin-left: 15px;"><strong>Claims & Risk Control</strong>
+    <mat-slide-toggle color="primary" class="green-toggle"></mat-slide-toggle>
+    <u style="margin-left: 680px;">View Details</u> 
+  </h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Line of Coverage & issue</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of  SummaryData6">
+        <td>
+          <span [style.color]="SummaryData6 ? 'blue' : 'black'">{{item.LineHeading}} :</span>{{item.LineofCoverageIssue}}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div> -->

@@ -1,0 +1,23 @@
+/* .card{ */
+     /* border: 0.5px solid rgb(125, 123, 123); */
+/* background-color:#f8f8f8; */
+
+/* } */
+
+  
+.json-item{
+    background-color: rgb(9, 14, 14);
+  }
+  .card{
+    background-color:  rgb(228, 225, 225);
+    width: 1100px;
+    margin-left: 15px;
+    border-radius: 10px;
+  }
+  .modal-backdrop{
+    /* z-index: 0; */
+    z-index: 0 !important;
+  }
+  .modal-lk{
+    z-index: 0 !important;
+  }

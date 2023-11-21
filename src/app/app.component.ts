@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { UserLoginComponent } from './user-login/user-login.component';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AgentsInsurance';
+  public showNavBar = true;
+toggleNavBar(component: any) {
+   if(component instanceof UserLoginComponent) {
+      this.showNavBar = false;
+   } else {
+      this.showNavBar = true;
+   }
+}
 }

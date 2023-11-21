@@ -15,14 +15,26 @@ import { AboutUsiComponent } from './about-usi/about-usi.component';
 import { ChartsComponent } from './charts/charts.component';
 import { ExpertsComponent } from './experts/experts.component';
 import {MatTabsModule} from '@angular/material/tabs';
-import { MyActivitiesComponent } from './myactivities/myactivities.component';
+// import { MyActivitiesComponent } from './myactivities/myactivities.component';
 
-import { MyAppointmentsComponent } from './my-appointments/my-appointments.component';
+// import { MyAppointmentsComponent } from './my-appointments/my-appointments.component';
 // import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { ScheduleModule, RecurrenceEditorModule, DayService, WeekService, WorkWeekService, MonthService, MonthAgendaService, DragAndDropService, ResizeService, WorkHoursModel} from '@syncfusion/ej2-angular-schedule';
 import { NewsComponent } from './news/news.component';
 import { MainPageComponent } from './main-page/main-page.component';
+import { MyActivitiesComponent } from './myactivities/myactivities.component';
+import { MyAppointmentsComponent } from './my-appointments/my-appointments.component';
+// import { SolutionsummaryComponent } from './solutionsummary/solutionsummary.component';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+// import { SolutionsummaryComponent } from './solutionsummary/solutionsummary.component';
+import { SolutionsSummaryComponent } from './solutions-summary/solutions-summary.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserLoginComponent } from './user-login/user-login.component';
+// import { UserComponent } from './model/user/user.component';
+import { FormsModule } from '@angular/forms';
+import { MycustomerComponent } from './mycustomer/mycustomer.component';
+// import { SolutionsummaryComponent } from './solutionsummary/solutionsummary.component';
 
 
 
@@ -39,7 +51,13 @@ import { MainPageComponent } from './main-page/main-page.component';
     MyActivitiesComponent,
     MyAppointmentsComponent,
     NewsComponent,
-    MainPageComponent
+    MainPageComponent,
+    // SolutionsummaryComponent,
+    SolutionsSummaryComponent,
+    UserLoginComponent,
+    MycustomerComponent,
+    
+    // SolutionsummaryComponent,
    
   ],
   imports: [
@@ -50,7 +68,11 @@ import { MainPageComponent } from './main-page/main-page.component';
     BrowserAnimationsModule,
     ChartModule,
     MatTabsModule,
-    ScheduleModule, RecurrenceEditorModule,
+    ScheduleModule,
+     RecurrenceEditorModule,
+     MatSlideToggleModule,
+     HttpClientModule,
+     FormsModule
     
     
   ],

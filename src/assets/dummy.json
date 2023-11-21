@@ -1,0 +1,99 @@
+
+  
+   { 
+    "posts":[
+      {
+        "id": 1,
+        "LineHeading":"GeneralandProductLiability",
+        "LineofCoverageIssue": "companies may not focus on the insurance required to protect them from the risks they assume.",
+        "Solution": "Alignment of Policy Coverage with contractual Exposures",
+        "Total": 2550000
+      
+      },
+      {
+        "id": 2,
+        "LineHeading":"stand-aloneProductLiability",
+        "LineofCoverageIssue": "If a manufactured product fails due to a flaw in the design or manufacturing process,resulting in a loss without bodily injury or property damage to a customer,the GL policy will not respond.",
+        "Solution": "Separate manufacturers Error and Omissions Policy",
+        "Total": 550000
+      }
+    ],
+    "workersCompensation": [
+  
+        {
+              "id": 3,
+              "LineHeading":"Workers Compensation",
+              "LineofCoverageIssue": "Companies want to reduce fixed costs and gain increased control over WC risk management.",
+              "Solution": "Design a Deductible Program",
+              "Total": "1,375,000 ",
+              "Saving":"Exposure Reduction"
+            },
+            {
+              "id": 4,
+              "LineHeading":"Workers Compensation",
+              "LineofCoverageIssue": "Rising claims,medical costs and collateral demands continue to pose a achallenge to many organizations by increasing total cost of risk.",
+              "Solution": "Targeted risk control advocacy based on claims review result",
+              "Total": "882",
+              "Saving":"Premium Savings"
+            },
+            {
+              "id": 5,
+              "LineHeading":"Workers Compensation",
+              "LineofCoverageIssue": "A high E-mod can lead to increased premium and difficulty qualifying for new contracts.",
+              "Solution": "Experience Mod Analysis",
+              "Total": "302",
+              "Saving":"Premium Savings"
+            }
+          ],
+          
+      "Property": [
+  
+        {
+              "id": 6,
+              "LineHeading":"GeneralandProductLiability",
+              "LineofCoverageIssue": " Companies may not focus on the insurance required to protect  them from the risks they assume."
+              
+            }
+          ],
+          "AutoLiability": [
+  
+            {
+                  "id": 7,
+                  "LineHeading":"GeneralandProductLiability",
+                  "LineofCoverageIssue": " Companies may not focus on the insurance required to protect  them from the risks they assume."
+                  
+                }
+              ],
+              "international&speciality": [
+  
+                {
+                      "id": 8,
+                      "LineHeading":"GeneralandProductLiability",
+                      "LineofCoverageIssue": " Companies may not focus on the insurance required to protect  them from the risks they assume."
+                      
+                    }
+                  ],
+                  "UmbrellaExcess": [
+  
+                    {
+                          "id": 9,
+                          "LineHeading":"GeneralandProductLiability",
+                          "LineofCoverageIssue": " Companies may not focus on the insurance required to protect  them from the risks they assume."
+                          
+                        }
+                      ],
+                      "ClaimsRiskControl": [
+  
+                        {
+                              "id": 10,
+                              "LineHeading":"GeneralandProductLiability",
+                              "LineofCoverageIssue": " Companies may not focus on the insurance required to protect  them from the risks they assume."
+                              
+                            }
+                          ]
+                      
+          
+
+}
+
+   

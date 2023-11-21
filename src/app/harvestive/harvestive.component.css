@@ -1,8 +1,13 @@
 .nav2{
   border: 0.5px solid rgb(125, 123, 123);
   background-color:#f8f8f8;
-  position: absolute;
-
+  position: relative;
+  margin-top: 20px;
+  margin-left: -25px;
+  width:1160px;
+  border-radius: 5px;
+  /* z-index:1; */
+  
   
 }
   .checked {
@@ -246,3 +251,19 @@
 .mat-tab-group {
   margin-bottom: 48px;
 }
+.fa{
+  color: orange;
+  /* size: 20px; */
+  font-size: 20px;
+}
+ 
+
+
+
+
+
+
+
+
+
+
