@@ -1,5 +1,5 @@
 .small-card {
-    width: 650px;
+    width: 700px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.3);
@@ -8,7 +8,7 @@
   }
   
   .company-list-container {
-    max-height: 360px; /* Set a maximum height for the container */
+    max-height: 300px; /* Set a maximum height for the container */
     overflow-y: scroll; /* Enable vertical scrolling */
     scrollbar-width: none; /* Hide the side scrollbar in Firefox */
     -ms-overflow-style: none; /* Hide the side scrollbar in IE/Edge */
@@ -20,7 +20,7 @@
   }
   
   .activities {
-    font-size: 20px;
+    font-size: 14px;
     color: #333;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
@@ -31,14 +31,14 @@
   }
   
   .company-row {
-    margin-bottom: 5px; /* Reduce the margin between rows */
+    margin-bottom: 3px; /* Reduce the margin between rows */
   }
   
   .company-details {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 20px;
-    font-size: small;
+    grid-column-gap: 12px;
+    font-size:  12px;
     color: #888;
     align-items: center;
   }
@@ -48,7 +48,7 @@
     flex-direction: column;
     margin-bottom: 0; /* Remove margin */
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px; /* Reduce the font size */
+    font-size: 12px; /* Reduce the font size */
     padding: 0; /* Remove padding */
   }
   
@@ -62,16 +62,16 @@
   
   .company-name {
     color: rgba(17, 87, 163, 0.906);
-    margin-bottom: 5px; /* Add margin to create space below the company name */
+    margin-bottom: 2px; /* Add margin to create space below the company name */
     font-weight: bold;
-    margin-top: 5px;
+    margin-top: 2px;
   }
   
   .company-details-small {
-    font-size: 17px;
-    margin-top: 9px; /* Add margin to create space above "agro industry" */
+    font-size: 12x;
+    margin-top: 2px; /* Add margin to create space above "agro industry" */
     color: rgba(17, 87, 163, 0.906);
-    margin-bottom: 5px; /* Add margin to create space below the company name */
+    margin-bottom: 2px; /* Add margin to create space below the company name */
   }
   
   .blue-amount {
@@ -91,16 +91,16 @@
   
   /* Adjust image size and spacing */
   .action-icon {
-    width: 40px; /* Set the desired width for your images */
-    height: 40px; /* Set the desired height for your images */
+    width: 38px; /* Set the desired width for your images */
+    height: 38px; /* Set the desired height for your images */
     margin-right: 2px; /* Add spacing between images */
   }
   
   /* Arrow icons */
   
   .arrow-icon {
-    width: 20px; /* Set the desired width for your arrow images */
-    height: 20px; /* Set the desired height for your arrow images */
+    width: 18px; /* Set the desired width for your arrow images */
+    height:18px; /* Set the desired height for your arrow images */
     margin-left: 5px; /* Add spacing between the label and arrow */
   }
   

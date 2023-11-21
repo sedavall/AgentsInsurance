@@ -1,12 +1,13 @@
 .news-container {
   display: flex;
-  width: 450px;
+  width: 350px;
   justify-content: space-between;
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  margin-left: 200px;
+  margin-left: 270px;
+  height: 370px;
 }
 
 .news-list {
@@ -15,12 +16,13 @@
 
 .news-item {
   background-color: #fff;
-  width: 400px;
+  width: 320px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border: 1px solid #eee;
   border-radius: 5px;
-  padding: 10px;
-  margin-bottom: 20px;
+  padding: 7px;
+  
+  margin-bottom: 7px;
 }
 
 .news-content {
@@ -36,13 +38,13 @@
 }
 
 .link {
-  font-size: 14px;
+  font-size: 10px;
   margin: 0;
 }
 
 .news-date {
   color: #007bff;
-  font-size: 13px;
+  font-size: 11px;
   margin-left: 30px; 
 }
 
@@ -56,7 +58,7 @@
 .view-more-link {
   text-decoration: none;
   color: #007bff;
-  font-size: 16px;
+  font-size: 12px;
   margin-left: 10px; /* Add margin between "News" and "View More" */
 }
 
