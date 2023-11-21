@@ -25,6 +25,16 @@ import { NewsComponent } from './news/news.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { MyActivitiesComponent } from './myactivities/myactivities.component';
 import { MyAppointmentsComponent } from './my-appointments/my-appointments.component';
+// import { SolutionsummaryComponent } from './solutionsummary/solutionsummary.component';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+// import { SolutionsummaryComponent } from './solutionsummary/solutionsummary.component';
+import { SolutionsSummaryComponent } from './solutions-summary/solutions-summary.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserLoginComponent } from './user-login/user-login.component';
+// import { UserComponent } from './model/user/user.component';
+import { FormsModule } from '@angular/forms';
+import { MycustomerComponent } from './mycustomer/mycustomer.component';
+// import { SolutionsummaryComponent } from './solutionsummary/solutionsummary.component';
 
 
 
@@ -41,7 +51,13 @@ import { MyAppointmentsComponent } from './my-appointments/my-appointments.compo
     MyActivitiesComponent,
     MyAppointmentsComponent,
     NewsComponent,
-    MainPageComponent
+    MainPageComponent,
+    // SolutionsummaryComponent,
+    SolutionsSummaryComponent,
+    UserLoginComponent,
+    MycustomerComponent,
+    
+    // SolutionsummaryComponent,
    
   ],
   imports: [
@@ -52,7 +68,11 @@ import { MyAppointmentsComponent } from './my-appointments/my-appointments.compo
     BrowserAnimationsModule,
     ChartModule,
     MatTabsModule,
-    ScheduleModule, RecurrenceEditorModule,
+    ScheduleModule,
+     RecurrenceEditorModule,
+     MatSlideToggleModule,
+     HttpClientModule,
+     FormsModule
     
     
   ],

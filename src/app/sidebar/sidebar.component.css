@@ -13,12 +13,13 @@ ul {
 }
 mat-sidenav-container {
     position: fixed;
-    top: 80px;
+    top: 70px;
     bottom: 0;
+    
     height: 100%;
-    left: 0;
+    left: 15px;
     background: #fff;
-    width: 90px;
+    width: 50px;
     overflow: hidden;
     transition: width 0.2s linear;
     box-shadow: 0.20px 35px rgb(0, 0, 0, 0.2);
@@ -36,11 +37,13 @@ mat-sidenav-container {
 }
 .fa {
     position: relative;
-    width: 70px;
-    height: 20px;
-    top: 14px;
+    width: 15px;
+    height: 15px;
+    top: 2px;
     font-size: 20px;
     text-align: center;
+    
+    
 }
 .logo span {
     font-weight: bold;
@@ -55,6 +58,7 @@ a {
     display: table;
     width: 300px;
     padding: 21px;
+    height: 68px;
 }
 a:hover {
     /* background: #eee; */
@@ -65,3 +69,6 @@ a:hover {
     width: 280px;
     transition: all 0.5s ease;
 } */
+.setting{
+    top:30px;
+}

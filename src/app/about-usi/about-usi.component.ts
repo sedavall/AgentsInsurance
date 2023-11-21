@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./about-usi.component.css']
 })
 export class AboutUsiComponent {
+ 
 
 }
