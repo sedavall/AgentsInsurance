@@ -21,31 +21,13 @@ export class SalesOverviewComponent {
   ngOnInit(): void {
     this.createChart();
   }
-   
- 
   createChart(){
- 
-    const ctx=document.getElementById('myChart') as HTMLCanvasElement;
- 
- 
-    // const data={
-    //   labels:['Sold', 'In Proposal', 'Qualification'],
-    //   datasets:[{
-    //     data:[2,3,5],
-    //     backgroundColor:['blue','orange','green'],
-    //   }]
-    // };
- 
-     
+    const ctx=document.getElementById('myChart') as HTMLCanvasElement; 
       this.chart=new Chart(ctx,{
         type:'doughnut',
         data: this.data,
         options: {
           cutout: '70%',
-          // legend:{
-          //   display: true,
-          //   position: 'right',
-          // }
           plugins:{
             legend:{
               display: false
@@ -55,11 +37,7 @@ export class SalesOverviewComponent {
               color:'black',
               formatter: (value, ctx) =>{
                 const label= this.data.labels[ctx.dataIndex];
-               
                 return '${label}: ${value}';
-                // const sum=(ctx.chart!.data!.datasets![0]!.data! as number[]).reduce((a,b)=>a + b,0);
-                // const percentage=((value/sum) * 100).toFixed(1)+'%';
-                // return percentage;
               },
               font:{
                 weight:'bold',
@@ -67,13 +45,8 @@ export class SalesOverviewComponent {
                },
              }
             }
- 
-            }
-       
-      });
-     
- 
-  }
- 
-}
+            }    
+           }); 
+          }
+        }
 
