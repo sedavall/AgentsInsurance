@@ -1,31 +1,32 @@
 #chart-container {
   position: relative;
-  width: 170px; /* Set the desired width */
-  height: 200px; /* Set the desired height */
- padding-left: 40PX;
- padding-top: 2PX;
- /* filter: drop-shadow(0 0 10px black); */
+  width: 150px; /* Set the desired width */
+  height: 180px; /* Set the desired height */
+  padding-left: 20PX;
+ /* padding-top: 10px; */
  border-radius: 20px;
-
 }
-
 
 .container {
   display: flex;
-  justify-content: space-between; /* Create two equal-width columns */
+  justify-content: space-between;
+  width: 350px;
+  margin-left: -50px;
+  margin-top: -50px;
+ 
 }
 
 .column {
   flex: 1; /* Distribute available space equally between columns */
-  margin: 10px; /* Add margin for spacing between columns */
+  margin: 5px; /* Add margin for spacing between columns */
 }
 
 .center-text {
   position: absolute;
-  top: 79%; /* Center vertically */
+  top: 69%; /* Center vertically */
   left: 50%; /* Center horizontally */
   transform: translate(-50%, -50%);
-  font-size: 20px; /* Adjust font size */
+  font-size: 16px; /* Adjust font size */
   color: black;
   /* box-shadow: rgba(5, 14, 7, 9.24) 3px 2px 18px; */
   /* border-radius: 10px; */
@@ -34,18 +35,18 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto; /* Center the legend */
-  margin-top: -89px; /* Add some top margin */
-  margin-left: 234PX;
+ margin-top: -90px;
+  margin-left: 180PX;
   width: 100px; /* Adjust width of the legend */
 }
 .legend-item {
   display: flex;
   align-items: center;
   margin-bottom: 5px;
-  box-shadow: 10px 10px 5px #aaaaaa;
+  box-shadow: 8px 8px 3px #aaaaaa;
   border-radius: 5px;
   background-color: whitesmoke;
-  width:107px;
+  width:100px;
   /* margin-left: 120px; */
 }
 
@@ -58,8 +59,8 @@
   /* box-shadow: rgba(5, 14, 7, 9.24) 3px 2px 18px; */
 }
 .legend-label {
-  font-size: 12px; /* Adjust font size */
-  padding-left: 15px;
+  font-size: 10px; /* Adjust font size */
+  padding-left: 5px;
   /* box-shadow: rgba(5, 14, 7, 9.24) 3px 2px 18px; */
 }
 .label {
@@ -69,20 +70,20 @@
   background-color: transparent;
   text-align: center;
   padding: 5px;
-  font-size: 16px; /* Adjust font size */
+  font-size: 13px; /* Adjust font size */
   font-weight: bold;
 /* box-shadow: red; */
 }
 .label-0 {
   top: 98px;
-  left: 207px;
+  left: 200px;
   color: rgb(154, 154, 237);
   /* box-shadow: greenyellow; */
   /* filter: drop-shadow(0 0 10px black); */
 }
 .label-1 {
   top: 98px;
-  left: 179px;
+  left: 150px;
   color: blue;
 }
 .label-2 {
@@ -92,8 +93,8 @@
   color: orange;
 }
 .label-3 {
-  top: 245px;
-  left: 125px;
+  top: 180px;
+  left: 120px;
   color: green;
 }
 .card {
@@ -107,7 +108,7 @@ top: 60px;
   /* box-shadow: 10px 10px 5px #aaaaaa; */
 }
 
-#appointments-column .card {
+/* #appointments-column .card {
   width: 100%;
   height: 300px;
   background-color: #fff;
@@ -115,7 +116,7 @@ top: 60px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
   margin-bottom: 20px;
-}
+} */
 
 .myChart{
   /* box-shadow: rgba(5, 14, 7, 9.24) 3px 2px 18px; */

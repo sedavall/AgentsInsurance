@@ -10,7 +10,7 @@ import {
 @Component({
   selector: 'app-my-appointments',
   template: `<ejs-schedule
-  height="280"
+  height="220"
   width="750"
   [eventSettings]="eventObject"
   [selectedDate]="setDate"

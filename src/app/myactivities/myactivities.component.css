@@ -1,14 +1,17 @@
 .small-card {
-    width: 700px;
+    width: 750px;
     padding: 10px;
     border-radius: 10px;
+    margin-top: 10px;
+    margin-left: -50px;
     box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.3);
     overflow: hidden; /* Hide side scrollbar in the card */
     margin-bottom: 20px;
+    margin-top: -10px;
   }
   
   .company-list-container {
-    max-height: 300px; /* Set a maximum height for the container */
+    max-height: 230px; /* Set a maximum height for the container */
     overflow-y: scroll; /* Enable vertical scrolling */
     scrollbar-width: none; /* Hide the side scrollbar in Firefox */
     -ms-overflow-style: none; /* Hide the side scrollbar in IE/Edge */
